@@ -136,6 +136,10 @@ button{
     padding-bottom: 16px;   
 }
 
+button:hover{
+    background-color: #ff9000;
+}
+
 /* Signup */
 .signup{
     object-fit: contain;
