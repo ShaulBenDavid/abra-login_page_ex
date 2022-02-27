@@ -1,0 +1,161 @@
+.container {
+    background:url(./assets/Background.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+/* Header and Nav bar */
+.logo{
+    margin-left: 64px;
+    padding-top: 20px;
+    display: inline;
+}
+
+.menu{ 
+    display: inline;
+    position: absolute;
+    right: 80px;
+    top: 34.5px;
+}
+
+.menu span{
+    font-family: Assistant;
+    font-size: 24px;
+    line-height: normal;
+    text-align: left;
+}
+
+.link-1{
+    margin-right: 31px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+}
+
+.link-1::before{
+    content: "";
+    width: 26.7px;
+    height: 5.5px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -17.5px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.link-2{
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Form */
+
+.page-content{
+    width: 426px;
+    margin: 0 auto;
+    margin-top: 141px;
+    text-align: center;
+}
+
+h1{
+    object-fit: contain;
+    font-family: Assistant;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.56px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+p{
+    object-fit: contain;
+    font-family: Assistant;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    margin-top: 17px;
+    margin-bottom: 64px;
+}
+
+/* Inputs */
+.page-content label{
+    text-align: left;
+    display: block;
+    margin-top: 24px;
+    font-family: Assistant;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+.page-content input {
+    height: 60px;
+    width: 426px;
+    padding: 20px 279px 20px 16px;
+    opacity: 0.9;
+    border-radius: 12px;
+    background-color: #fff;
+    border: none;
+}
+
+/* button */
+button{
+    width: 426px;
+    object-fit: contain;
+    margin-top: 64px;
+    border-radius: 12px;
+    background-color: #ff9f00;
+    border: none;
+
+    flex-grow: 0;
+    font-family: Assistant;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;   
+}
+
+/* Signup */
+.signup{
+    object-fit: contain;
+    font-family: Assistant;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.signup a{
+    font-weight: 600;
+    color: #ff9f00;
+}
+
+
+
+
+
